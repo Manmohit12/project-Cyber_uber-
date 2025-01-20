@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Resources</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset default styles */
+body, h1, p, form, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.resource-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CyberUber Registration</h1>
+        <p>Access valuable cybersecurity resources here!</p>
+    </header>
+
+    <form class="resource-form">
+        <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="resource-type">Resource Type:</label>
+            <select id="resource-type" name="resource-type" required>
+                <option value="">Select Resource Type</option>
+                <option value="ebook">Ebook</option>
+                <option value="whitepaper">Whitepaper</option>
+                <option value="infographic">Infographic</option>
+                <option value="video">Video</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message (Optional):</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Get Resource</button>
+    </form>
+
+    <footer>
+        <p>Stay informed with our latest cybersecurity updates!</p>
+    </footer>
+</body>
+</html>
